@@ -156,50 +156,13 @@ header ul li:nth-child(5) {
     display: block;
 }
 
-#results .search_row:nth-child(1) .search_item:nth-child(1) {
-    background-image: url("img/sekiro.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    position: absolute;
 }
-
-#results .search_row:nth-child(1) .search_item:nth-child(2) {
-    background-image: url("img/assetto corsa.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#results .search_row:nth-child(1) .search_item:nth-child(3) {
-    background-image: url("img/shenmue_hd.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#results .search_row:nth-child(2) .search_item:nth-child(1) {
-    background-image: url("img/the_last_guardian.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-
-#results .search_row:nth-child(2) .search_item:nth-child(2) {
-    background-image: url("img/the_last_of_us.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#results .search_row:nth-child(2) .search_item:nth-child(3) {
-    background-image: url("img/xcom2.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-
 
 footer {
     background-color:#a11b36;
